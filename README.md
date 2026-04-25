@@ -1,6 +1,6 @@
-# Reflow Controller Firmware
+# Reflow Controller (Firmware)
 
-Firmware for the [Reflow Controller](https://github.com/AlfonsoJLuna/reflow-controller-hw) board.
+Open-source firmware for reflow controllers.
 
 ## How to use
 
@@ -23,3 +23,10 @@ Firmware for the [Reflow Controller](https://github.com/AlfonsoJLuna/reflow-cont
     * `Adafruit ST7735 and ST7789 Library 1.6.0`
 8. Reset the board in DFU mode: hold BOOT0, hold NRST, release NRST, release BOOT0. `STM32 BOOTLOADER` should appear in Windows Device Manager.
 9. Press the `Upload` button in the Arduino IDE.
+
+## Hardware compatibility
+
+| Hardware version | Latest firmware |
+|---|---|
+| [v0.1](https://github.com/AlfonsoJLuna/reflow-controller-hw/tree/v0.1) | [v0.1.0](https://github.com/AlfonsoJLuna/reflow-controller-fw/tree/v0.1.0) |
+| [v0.2](https://github.com/AlfonsoJLuna/reflow-controller-hw/tree/v0.2) | FW under development |
